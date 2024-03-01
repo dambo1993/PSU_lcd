@@ -14,3 +14,22 @@ Wykorzystane moduły sprzętowe:
 
 Projekt oparty o bibliotekę TouchGFX w wersji 4.23.
 Używane IDE to STM32CubeIDE.
+
+## Funkcjonalności
+
+Podstawowe funkcjonalności:
+
+- wyświetlenie aktualnego napięcia i prądu
+- ustawianie napięcia oraz prądu
+- sterowanie wyjściem
+- wyświetlanie statusu zasilacza
+- wyświetlanie pobieranej mocy
+
+Dodatkowe funkcjonalności:
+
+- wykres pobieranego prądu
+- wykres pobieranej mocy
+
+Opcjonalne funkcjonalności:
+
+- uruchomienie ethernetu w module Discovery i utworzenie API do komunikacji
