@@ -41,6 +41,8 @@ public:
 
     STM32TouchController() {}
 
+    static const uint16_t TS_I2C_ADDRESS = ((uint16_t)0x70);
+
     /**
      * @fn virtual void STM32TouchController::init() = 0;
      *
